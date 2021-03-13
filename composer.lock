@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a16c3c541bd99241cab1c21ce8e83ac",
+    "content-hash": "aaa0dbc778035626e8271a2c6ff1e298",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1475,6 +1475,120 @@
                 }
             ],
             "time": "2020-12-14T13:15:25+00:00"
+        },
+        {
+            "name": "naykel/formit",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/naykel76/formit.git",
+                "reference": "b4c579b802e8fb152ecc78c744b8cca7b1078494"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/naykel76/formit/zipball/b4c579b802e8fb152ecc78c744b8cca7b1078494",
+                "reference": "b4c579b802e8fb152ecc78c744b8cca7b1078494",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~7|~8"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~5|~6",
+                "phpunit/phpunit": "~9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Naykel\\Formit\\FormitServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Naykel\\Formit\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Watts",
+                    "email": "nathan@naykel.com.au",
+                    "homepage": "https://naykel.com.au"
+                }
+            ],
+            "description": "Form components package including WYSIWYG editor for NayKel Laravel applications",
+            "keywords": [
+                "Formit",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/naykel76/formit/issues",
+                "source": "https://github.com/naykel76/formit/tree/v1.0.0"
+            },
+            "time": "2020-12-23T18:35:21+00:00"
+        },
+        {
+            "name": "naykel/gotime",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/naykel76/gotime.git",
+                "reference": "f17e78bcdeba94c4ea7a86251814610d22a580e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/naykel76/gotime/zipball/f17e78bcdeba94c4ea7a86251814610d22a580e0",
+                "reference": "f17e78bcdeba94c4ea7a86251814610d22a580e0",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~7|~8",
+                "naykel/formit": "^1.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~5|~6",
+                "phpunit/phpunit": "~9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Naykel\\GoTime\\GoTimeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Naykel\\GoTime\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Watts",
+                    "email": "nathan@naykel.com.au",
+                    "homepage": "https://naykel.com.au"
+                }
+            ],
+            "description": "Core files for NayKel Laravel applications",
+            "homepage": "https://github.com/naykel76/gotime.git",
+            "keywords": [
+                "Naykel",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/naykel76/gotime/issues",
+                "source": "https://github.com/naykel76/gotime/tree/v0.0.1"
+            },
+            "time": "2021-03-12T20:02:48+00:00"
         },
         {
             "name": "nesbot/carbon",

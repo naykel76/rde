@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+// use Naykel\Navit\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('pages.home');
+// });
+
+
+// Uncomment when using navit package
+/** ---------------------------------------------------------------------------
+ *  =!= MUST RUN LAST =!= MUST RUN LAST =!= MUST RUN LAST =!= MUST RUN LAST =!=
+ * ------------------------------------------------------------------------- */
+///////////////////////////////////////////////////////////////////////////////
+Route::view('/', 'pages.home')->name('home');                               ///
+Route::view('/contact', 'pages.contact')->name('contact');                  ///
+///////////////////////////////////////////////////////////////////////////////
+/** ---------------------------------------------------------------------------
+ *  =!= MUST RUN LAST =!= MUST RUN LAST =!= MUST RUN LAST =!= MUST RUN LAST =!=
+ * ------------------------------------------------------------------------- */
