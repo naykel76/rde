@@ -1175,7 +1175,7 @@ select {
 }
 
 .bx-secondary {
-  background: #b57e30;
+  background: #580100;
   color: #fff;
 }
 
@@ -1231,30 +1231,30 @@ select {
 }
 
 .btn-secondary {
-  background-color: #b57e30;
+  background-color: #580100;
   color: #fff;
 }
 .btn-secondary:hover {
   color: #fff;
-  background-color: #c98c35;
+  background-color: #720100;
   transition: color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
 .btn-secondary:active {
-  background-color: #a1702b;
+  background-color: #3f0100;
 }
 .btn-secondary.outline {
-  border-color: #b57e30;
-  color: #b57e30;
+  border-color: #580100;
+  color: #580100;
 }
 .btn-secondary.outline:hover {
   color: #fff;
-  background-color: #c98c35;
+  background-color: #720100;
   transition: color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
 .btn-secondary.outline:active {
-  background-color: #a1702b;
+  background-color: #3f0100;
 }
 
 .btn-danger {
@@ -1666,7 +1666,7 @@ nav a:not([class*=btn]) {
 }
 
 .secondary {
-  background: #b57e30;
+  background: #580100;
   border: 1px solid rgba(0, 0, 0, 0.15);
   color: #fff;
 }
@@ -2630,7 +2630,7 @@ h1.title {
   color: #970100;
 }
 .txt-secondary {
-  color: #b57e30;
+  color: #580100;
 }
 .txt-strike {
   text-decoration: line-through;

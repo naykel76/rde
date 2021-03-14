@@ -161,4 +161,95 @@
     </div>
 </section>
 
+<section class="py-5">
+    <div class="container py-4">
+        <h1>Site Styles Overview</h1>
+        <p class="lead">Site style examples for common page elements including text styles, buttons, form inputs and more.</p>
+
+        <section>
+            <h2>Theme Colours</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="bx-primary">
+                        <div class="bx-title">Primary</div>
+                    </div>
+                    <p>Navbar, buttons, headings</p>
+                </div>
+                <div class="col">
+                    <div class="bx-secondary">
+                        <div class="bx-title">Secondary</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bx light">
+                        <div class="bx-title">Light</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bx dark">
+                        <div class="bx-title">Dark</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="bx">
+                        <h1 class="my-sm">H1 Heading</h1>
+                        <h2 class="my-sm">H2 Heading</h2>
+                        <h3 class="my-sm">H3 Heading</h3>
+                        <h4 class="my-sm">H4 Heading</h4>
+                        <h5 class="my-sm">H5 Heading</h5>
+                        <h6 class="my-sm">H6 Heading</h6>
+                        <hr>
+                        <p class="title">Title</p>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, est! Facere voluptatibus temporibus voluptatum numquam?</p>
+                        <p class="subtitle">Subtitle</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, magnam neque saepe ut eos ratione eligendi voluptas esse consequuntur dolorem dolores error velit id nisi veritatis earum, provident, maiores exercitationem!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bx">
+                        <p>This is the default paragraph text</p>
+                        <hr>
+                        <p class="lead">Add the <code>.lead</code> class to a paragraph to make the text stand out a little more.</p>
+                        <hr>
+                        <a href="">This is a link</a>
+                        <hr>
+
+                        <h2>Text Utility Classes</h2>
+                        <p class="my-sm txt-primary">txt-primary</p>
+                        <p class="my-sm txt-green">txt-green</p>
+                        <p class="my-sm txt-red">txt-red</p>
+                        <p class="my-sm txt-orange">txt-orange</p>
+                        <p class="my-sm txt-blue">txt-blue</p>
+                        <p class="my-sm txt-white dark">txt-white</p>
+                        <p class="my-sm txt-muted">txt-muted</p>
+                        <p class="my-sm txt-sm">small text <code>.txt-sm</code></p>
+                        <p class="my-sm txt-lg">large text <code>.txt-lg</code></p>
+                        <div class="dark pxy mr">
+                            <div class="headline">This is a headline!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+
+
+        <div id="style-buttons" class="bx">
+            <div class="bx-title">Buttons</div>
+            <div class="bx-content">
+                <button class="mx-sm nlm btn" type="button">Default</button>
+                <button class="mx-sm btn-primary" type="button">Primary</button>
+                <button class="mx-sm btn-secondary" type="button">Secondary</button>
+                <button class="mx-sm btn-danger" type="button">Danger</button>
+                <button class="mx-sm btn-success" type="button">Success</button>
+            </div>
+        </div>
+    </div>
+
+</section>
 @endsection
