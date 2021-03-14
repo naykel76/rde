@@ -1,0 +1,60 @@
+// !! Variable overrides and custom scss MUST come before importing nk_jtb  !!
+// !! variable specified in custom.scss will take precedence over app.scss  !!
+
+$img-path: "/images";
+
+$primary: #970100;
+$secondary: #b57e30;
+
+$navbar-bg: #050d0b;
+$navbar-nav-bg: $primary;
+
+// /* Color Theme Swatches in Hex */
+// $TidyRed-1-hex: #AABFBF;
+// $TidyRed-2-hex: #D90404;
+// $TidyRed-3-hex: #970100;
+// $TidyRed-4-hex: #580100;
+// $TidyRed-5-hex: #0F0D0B;
+
+// /* Color Theme Swatches in RGBA */
+// $TidyRed-1-rgba: rgba(170,191,191, 1);
+// $TidyRed-2-rgba: rgba(216,3,3, 1);
+// $TidyRed-3-rgba: rgba(151,1,0, 1);
+// $TidyRed-4-rgba: rgba(87,1,0, 1);
+// $TidyRed-5-rgba: rgba(15,12,10, 1);
+
+// /* Color Theme Swatches in HSLA */
+// $TidyRed-1-hsla: hsla(180, 14, 70, 1);
+// $TidyRed-2-hsla: hsla(0, 96, 43, 1);
+// $TidyRed-3-hsla: hsla(0, 100, 29, 1);
+// $TidyRed-4-hsla: hsla(0, 100, 17, 1);
+// $TidyRed-5-hsla: hsla(29, 15, 5, 1);
+
+// To add custom scss add file the uncomment below
+@import 'custom';
+
+@import '~nk_jtb/scss/nk_jtb';
+
+
+
+.fp-hero {
+    background-image: $hero-gradient, url("#{$img-path}/hero-sm.jpg");
+    @include from-tablet {
+        background-image: $hero-gradient, url("#{$img-path}/hero-md.jpg");
+    }
+    @include from-desktop {
+        background-image: $hero-gradient, url("#{$img-path}/hero-lg.jpg");
+    }
+    @include from-widescreen {
+        background-image: $hero-gradient, url("#{$img-path}/hero-xl.jpg");
+    }
+
+    .title {
+        color: $hero-title-color;
+        font-size: 2.25rem;
+
+        @include from-tablet {
+            font-size: 3.5rem;
+        }
+    }
+}
